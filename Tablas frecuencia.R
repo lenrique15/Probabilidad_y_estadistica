@@ -62,7 +62,6 @@ tabla<-transform(tabla_clases,
                  Rel= round(prop.table(Freq),3),
                  RelAc=round(cumsum(prop.table(Freq)),3))
 
-tabla
 
 # 7.- Organización visual de la tabla (variable Petal.length)
 
